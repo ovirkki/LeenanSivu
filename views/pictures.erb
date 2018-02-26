@@ -1,0 +1,13 @@
+
+        
+        	
+            <h1><%= @title %></h1>
+
+<% for url in @picture_urls %>
+<a href="<%= url.sub(/\.\w+$/, '.html') %>"><img class="album-photo" src="<%= url %>"></a>
+<% end %>
+
+
+
+       
+ 

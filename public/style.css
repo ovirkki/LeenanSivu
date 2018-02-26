@@ -1,0 +1,94 @@
+h1 {
+    font-size: 30px;
+    color: #E0330C;
+}
+
+.profile-picture {
+    float: right;
+    border: ;
+}
+
+
+.content {
+    
+    min-height: 300px;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: #EEEEEE;
+    border-radius: 50px;
+    border: 2px solid #0431B4;
+    padding: 20px;
+    background-color: #58FAF4;
+
+
+
+}
+
+.navigation {
+	font-size: 20px;
+	line-height: 30px;
+   
+}
+
+@media screen and (min-width: 35.5em) { /* same as pure-u-sm */
+    .content {
+        margin-top: 15px;
+		margin-right: 15px;
+	 }
+
+.navigation {
+	margin-top: 35px; /* same as .content's margin-top + border-radius */
+    }
+ }
+
+.pure-menu-link {
+    color: #0431B4;
+}
+
+.pure-menu-active>.pure-menu-link, .pure-menu-link:focus, .pure-menu-link:hover {
+    background-color: #58FAF4;
+}
+
+h1 {
+    font-size: 30px;
+    color: #0431B4;
+    
+
+}
+
+.profile-picture {
+    float: right;
+    border: 0px solid #E0330C;
+    width: 150px;
+}
+
+.album-photo {
+    height: 150px;
+    margin: 3px;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    background-color:  #FFFFFF;
+    box-shadow: 3px 5px 8px #BBBBBB;
+
+
+}
+
+
+.add-comment input, .add-comment textarea {
+    width: 40ch;
+}
+
+.add-comment textarea {
+    height: 3em;
+}
+
+.comment-author {
+    font-weight: bold;
+}
+
+.comment-message {
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.full-photo{width: 100%;}
